@@ -1,0 +1,32 @@
+# .NET and Visual Studio specific files
+*.dll
+*.exe
+*.pdb
+*.dll.mdb
+*.exe.mdb
+*.user
+*.suo
+*.cache
+*.log
+*.vscode
+.vs/
+bin/
+obj/
+TestResults/
+TestResults_*/
+
+# .NET build folders
+**/bin/
+**/obj/
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.dll.mdb
+**/*.exe.mdb
+
+# Other files and folders to ignore
+*.log
+*.vs/
+*.npm-debug.log*
+*.yarn-debug.log*
+*.yarn-error.log*
